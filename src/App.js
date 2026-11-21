@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter } from 'react-router-dom';
-import AppRoutes from './routers/AppRoutes';
+
+import React from "react";
+import { BrowserRouter } from "react-router-dom";
+import AppRoutes from "./routers/AppRoutes";
+import "./App.css";
 
 function App() {
-    return (
-      <BrowserRouter>
-        <div className="App">
-           <AppRoutes />
-        </div>
-      </BrowserRouter>  
-    );
+  return (
+    <BrowserRouter>
+      <AppRoutes />
+    </BrowserRouter>
+  );
 }
+
 export default App;
